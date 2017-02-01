@@ -8,3 +8,10 @@
 <div [dirHighlight]="'blue'" [defaultColor]="'red'">
     Some Text
 </div>
+<hr>
+<h2>Structural Directives</h2>
+<h3>*ngIf</h3>
+<div *ngIf="switch">
+    Conditional Text
+</div>
+<button (click)="onSwitch()">Switch</button>

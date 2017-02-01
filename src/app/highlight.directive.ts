@@ -30,7 +30,7 @@ export class HighlightDirective {
     private elementRef: ElementRef,
     private renderer: Renderer
   ) {
-    //this.elementRef.nativeElement.style.backgroundColor = 'green';
+    // this.elementRef.nativeElement.style.backgroundColor = 'green';
     this.renderer.setElementStyle(this.elementRef.nativeElement, 'border', '3px solid blue');
   }
 
